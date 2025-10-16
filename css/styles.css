@@ -7,8 +7,9 @@
     height: 300vh;
 } */
 
-.meal {
-    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);;
+.meal:hover {
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+    filter: grayscale(75%) blur(3px);
 }
 
 /* .bg-dishes
