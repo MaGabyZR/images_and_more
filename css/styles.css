@@ -1,12 +1,17 @@
-body {
-/*     background: url(../images/bg-sanfrancisco.jpg);
+/* body {
+    background: url(../images/bg-sanfrancisco.jpg);
     background-repeat: no-repeat;
     background-position: 110px 110px;
     background-size: cover;
     background-attachment: fixed;
-    height: 300vh; */
+    height: 300vh;
+} */
+
+.meal {
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);;
 }
-.bg-dishes
+
+/* .bg-dishes
 {
 background:url('../images/css-sprite-combined.2.png') 0px -0px;
 width:100px;height:100px;
@@ -40,3 +45,4 @@ background:url('../images/css-sprite-combined.2.png') -400px -0px;
 width:100px;height:100px;
 display:inline-block;
 }
+ */
