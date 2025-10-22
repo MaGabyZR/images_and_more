@@ -12,9 +12,24 @@ body {
     background: goldenrod;
 }
 
+/* 2D
 .box:hover {
     transform: rotate(15deg) scale(1.5) skew(15deg) translate(10px);
+} */
+
+/* 3D */
+.container {
+    perspective: 200px;
 }
+.container:hover .box {
+    transform: rotateY(45deg) translateZ(50px);
+    transform-origin: 0 50%;
+}
+
+.container:hover .box-special {
+    transform: rotateX(45deg);
+}
+
 
 /*Styling forms, text with Milligram*/
 /* form {
