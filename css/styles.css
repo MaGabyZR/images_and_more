@@ -10,15 +10,18 @@ body {
     width: 100px;
     height: 100px;
     background: goldenrod;
+    transition: transform 0.5s ease-in, background;
 }
 
-/* 2D
+/* 2D */
 .box:hover {
-    transform: rotate(15deg) scale(1.5) skew(15deg) translate(10px);
-} */
+    /* transform: rotate(15deg) scale(1.5) skew(15deg) translate(10px); */
+    transform: rotate(45deg);
+    background: deepskyblue;
+} 
 
 /* 3D */
-.container {
+/* .container {
     perspective: 200px;
 }
 .container:hover .box {
@@ -28,7 +31,7 @@ body {
 
 .container:hover .box-special {
     transform: rotateX(45deg);
-}
+} */
 
 
 /*Styling forms, text with Milligram*/
